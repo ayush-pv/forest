@@ -1,0 +1,93 @@
+.home_home{
+    background-color:rgb(238, 238, 238); 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.hometrial{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/438/160/25/trees-top-view-green-wallpaper-preview.jpg');
+    width: auto;
+    height: 600px;
+    text-align: center;
+}
+.hometrial_india{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 110px;
+    font-weight: 600px;
+}
+option:hover{
+    background-color: grey;
+}
+.home_in{
+    color: coral;
+}
+.home_d{
+    color: whitesmoke;
+}
+.home_ia{
+    color: rgb(89, 224, 89);
+}
+.hometrial_selectone{
+    margin:10px 70px 0px 70px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family:inherit;
+    color: white;
+}
+.hometrial_select{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 45px;
+    font-weight: 400;
+    border-radius: 7px;
+    margin: 10px 20px 0px 20px;
+    width: 70%;
+}
+.hometrial_select:hover{
+    background-color: rgb(168, 166, 166);
+    color: black;
+    font-weight: 1200;
+}
+.hometrial_statement{
+    color:white;
+    margin: 70px 70px 0px 70px;
+}
+.hometrial_readmore{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 140px;
+    text-align: center;
+    padding: 10px;
+    border:1px solid white;
+    display: inline-block;
+    border-radius: 10px;
+}
+.hometrial_readmore:hover{
+    background-color: rgb(168, 166, 166);
+    color: black;
+    font-weight: 1200;
+}
+.hometrial_explore{
+    font-size: 20px;
+    border: 0.1px solid rgb(109, 153, 180);
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;      
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: 500;
+    text-align: justify;
+    color: rgb(211, 104, 104);
+}
+.hometrial_body{
+    display: flex;
+}
+.hometrial_body_two{
+    display: flex;
+}
+.home_select:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+}

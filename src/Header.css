@@ -1,0 +1,76 @@
+.header_main{
+    height: 55px;
+    background-color:rgb(211, 198, 138);
+    position: sticky;
+    width: 100%;
+}
+.header{
+    height:50px;
+    display:flex;
+    background-color:rgb(128, 179, 128);
+    width: 100%;
+    position: fixed;
+    align-items:center;
+    border: 1px solid grey;
+
+}
+.header_name{
+    display: flex;   
+    flex-direction: column;
+    padding: 10px;
+    color:blanchedalmond;
+    margin:50px;
+    padding-top:55px;
+    background-color: rgb(226, 205, 111);
+    font-size: 32px;
+    font-family:sans-serif;
+    font-weight:500;
+    text-shadow: 2px 2px 4px grey;
+}
+.header_one_liner{
+    font-size: 12px;
+}
+.header_name:hover{
+    transform:rotate(360deg);
+    transition:transform 2s;
+}
+.header_nav{
+    display: flex;
+    flex: 1;
+    text-align: justify;
+}
+.header_navoption{
+    margin-left:20px;
+    margin-right:20px;
+    display:flex;
+    padding: 7px;
+    border-radius:15px;
+    flex-direction: column;
+    color:white;
+    font-weight: 17px;
+    display:inline-block;
+}
+.header_navoption:hover{
+    background-color:rgb(177, 204, 177);
+    color: black;
+    display:inline-block;
+    font-size: 18px;
+}
+.header_navoptionright{
+    color: white;
+    display:flex;
+    margin: 20px;
+    margin-right: 80px;
+    font-weight: 14px;
+    flex-direction: column;
+    display: inline-block;
+    
+}
+.header_icon{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: -3px;
+}
+.header_navoptionright_one:hover{
+    color: burlywood;
+}

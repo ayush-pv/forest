@@ -1,0 +1,116 @@
+.home{
+    background-color:rgb(238, 238, 238);  
+}
+.home_head{
+    display: flex;
+    background-color: rgb(207, 190, 111);
+    height: 420px;
+}
+.home_none{
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+}
+.home_left{
+    text-align:left ;
+    background-color:rgb(231, 228, 214);
+    color: rgba(0, 0, 0, 0.904);
+    width: 60%;
+}
+.home_image{
+    position: relative;
+}
+.home_image img{
+    position: absolute;
+    height: 420px;
+}
+.bottom{
+    width:505px;
+}
+.top {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    width:505px;
+}
+@keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+option:hover{
+    background-color: grey;
+}
+.home_explore{
+    font-size: 20px;
+    border: 0.1px solid rgb(109, 153, 180);
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: 500;
+    text-align: justify;
+    color: rgb(211, 104, 104);
+}
+.home_in{
+    color: coral;
+}
+.home_d{
+    color: whitesmoke;
+}
+.home_ia{
+    color: rgb(89, 224, 89);
+}
+.home_title{
+    font-weight: 700;
+    font-size:70px ;
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.home_selectone{
+    margin:40px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family:inherit;
+}
+.home_select{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    margin: 20px;
+    height: 40px;
+    border-radius: 7px;
+    width: 60%;
+    font-weight: 400;
+}
+.home_statement{
+    margin: 20px;
+    margin-right: 40px;
+    font-family:inherit;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+.home_body{
+    display: flex;
+}
+.home_body_two{
+    display: flex;
+}
+.home_select:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+}

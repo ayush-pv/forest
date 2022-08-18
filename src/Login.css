@@ -1,0 +1,40 @@
+.login_homepage{
+    background-image: linear-gradient(rgb(214, 241, 214), rgb(231, 233, 194));
+    display: flex;
+    flex-direction: column;
+}
+.login_main{
+    margin:70px 35%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 6px grey;
+}
+.login{
+    margin-top: 50px; 
+    margin-bottom: 30px;
+}
+.login_name{
+    font-weight: 600;
+    font-size:x-large;
+}
+.login_signin{
+    color: rgb(128, 179, 128);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.form_details{
+    padding: 5px;
+    width: 80%;
+}
+.form_button{
+    margin-top: 25px;
+    height: 30px;
+    padding: 5px;
+    width: 80%;
+    color: white;
+    background-color:rgb(128, 179, 128);
+}
+.form_button:hover{
+    background-color:rgb(177, 204, 177);
+    color: black;
+}

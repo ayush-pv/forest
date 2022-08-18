@@ -1,0 +1,31 @@
+.footer{
+    background-color: rgb(231, 228, 214);
+    display: flex;
+    height: 30%;
+    color:grey;
+}
+.footer_contact{
+    color:black;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size:12px;
+}
+.footer_copy{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer_right{
+    color:black;
+    font-size:12px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.footer_line{
+    margin-left: 40px;
+    width:1180px;
+    margin-right:40px;
+}
+.footer_last{
+    display: flex;
+    margin-left: 50px;
+}
